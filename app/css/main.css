@@ -1,0 +1,21 @@
+
+
+.center {
+    position: static;
+    text-align: center;
+  }
+  .map {
+    padding: 10px;
+    background-color: rgba(240, 240, 240, 0);
+    position: static;
+  }
+  
+  .content {
+    text-align: center;
+    display: grid;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    padding: 3cm;
+    margin: 4cm;
+  }
+ 

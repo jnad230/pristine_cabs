@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PristineCaps</title>
+
+    <link rel="shortcut icon" href="img/favicon.jpg.jpg" type="image/jpg">
+</head>
+
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title"> <img src="img/Logo.jpg" width="175" height="65"> </span>
+
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title" style="color: rgb(0, 0, 0);"> <b> Navigation </b></span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="index.html" style="color: black;">Home Page</a>
+                <a class="mdl-navigation__link" href="allbookings.html" style="color: black;">View All Booking</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone"
+                        id="queueContent">
+                        <!-- begin queue 'list' -->
+                        <div id = "future">
+                            <ul class="mdl-list">
+                                <h4>Future</h4>
+                                <!--<li class="mdl-list__item mdl-list__item--three-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        <span>Final Destination: Cool place</span>
+                                        <span class="mdl-list__item-text-body">
+                                            Number of spots: # <br>
+                                            Total Distance: x Km <br>
+                                            Total Fare: $x <br>
+                                        </span>
+                                    </span>
+                                    <span class="mdl-list__item-secondary-content"> dd/mm/yyyy </span>
+                                    <span class="mdl-list__item-secondary-content">
+                                        <a class="mdl-list__item-secondary-action" onclick="view(0)"><i
+                                                class="material-icons">info</i></a>
+                                    </span>
+                                    <span class="mdl-list__item-secondary-content">
+                                        <a class="mdl-list__item-secondary-action" onclick="deleteTrip(0)"><i
+                                                class="material-icons">cancel</i></a>
+                                    </span>
+                                </li>
+                                
+                            </ul>-->
+                        </div>
+                        <!-- end queue 'list' -->
+                                             
+                        <!-- begin queue 'list' -->
+                        <div id = "past">
+                            <ul class="mdl-list">
+                                <h4>Past</h4>
+                                <!-- begin item in this queue -->
+                                <!--<li class="mdl-list__item mdl-list__item--three-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        <span>Final Destination: Cool place</span>
+                                        <span class="mdl-list__item-text-body">
+                                            Number of spots: # <br>
+                                            Total Distance: x Km <br>
+                                            Total Fare: $x <br>
+                                        </span>
+                                    </span>
+                                    <span class="mdl-list__item-secondary-content"> dd/mm/yyyy </span>
+                                    <span class="mdl-list__item-secondary-content">
+                                        <a class="mdl-list__item-secondary-action" onclick="view(0)"><i
+                                                class="material-icons">info</i></a>
+                                    </span>
+                                    <span class="mdl-list__item-secondary-content">
+                                        <a class="mdl-list__item-secondary-action" onclick="deleteTrip(0)"><i
+                                                class="material-icons">cancel</i></a>
+                                    </span>
+                                </li>
+                                <!-- end item in this queue -->
+                            </ul>
+                        </div>
+                        <!-- end queue 'list' -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/bookinglist.js"></script>
+</body>
+
+</html>
